@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "source": "Carnegie Classification + College Scorecard selectivity data",
+    "note": "Adjustments to risk premium based on institutional characteristics"
+  },
+  "carnegie_classification": {
+    "R1 (Doctoral - Very High Research)": {
+      "risk_multiplier": 0.70,
+      "description": "Top research universities (Harvard, MIT, Stanford, etc.)",
+      "examples": "Harvard, MIT, Stanford, Berkeley"
+    },
+    "R2 (Doctoral - High Research)": {
+      "risk_multiplier": 0.80,
+      "description": "Strong research universities",
+      "examples": "UC Riverside, Florida State, CUNY Graduate Center"
+    },
+    "R3 (Doctoral - Moderate Research)": {
+      "risk_multiplier": 0.90,
+      "description": "Moderate research activity",
+      "examples": "Montana State, North Dakota State"
+    },
+    "Master's - Larger Programs": {
+      "risk_multiplier": 1.00,
+      "description": "Regional comprehensive universities",
+      "examples": "CSU system, regional state universities"
+    },
+    "Master's - Medium Programs": {
+      "risk_multiplier": 1.05,
+      "description": "Smaller master's institutions",
+      "examples": "Many regional colleges"
+    },
+    "Baccalaureate": {
+      "risk_multiplier": 1.10,
+      "description": "Liberal arts colleges and small institutions",
+      "examples": "Liberal arts colleges, small private colleges"
+    },
+    "Associate's": {
+      "risk_multiplier": 1.20,
+      "description": "Community colleges",
+      "examples": "Community colleges nationwide"
+    },
+    "Special Focus": {
+      "risk_multiplier": 0.95,
+      "description": "Specialized institutions (arts, business, etc.)",
+      "examples": "Juilliard, Babson, RISD"
+    }
+  },
+  "selectivity_tiers": {
+    "Most Selective (<25% admission)": {
+      "risk_multiplier": 0.60,
+      "description": "Elite institutions with very low admission rates",
+      "admission_rate_max": 0.25
+    },
+    "Highly Selective (25-50%)": {
+      "risk_multiplier": 0.75,
+      "description": "Selective universities",
+      "admission_rate_min": 0.25,
+      "admission_rate_max": 0.50
+    },
+    "Moderately Selective (50-75%)": {
+      "risk_multiplier": 0.90,
+      "description": "Moderately competitive",
+      "admission_rate_min": 0.50,
+      "admission_rate_max": 0.75
+    },
+    "Minimally Selective (>75%)": {
+      "risk_multiplier": 1.10,
+      "description": "Open or near-open admission",
+      "admission_rate_min": 0.75,
+      "admission_rate_max": 1.00
+    },
+    "Open Admission": {
+      "risk_multiplier": 1.30,
+      "description": "Open enrollment (community colleges, some for-profits)",
+      "admission_rate_min": 1.00,
+      "admission_rate_max": 1.00
+    }
+  },
+  "institution_type": {
+    "Private Nonprofit": {
+      "risk_multiplier": 0.85,
+      "description": "Traditional private colleges and universities"
+    },
+    "Public": {
+      "risk_multiplier": 1.00,
+      "description": "State universities and colleges (baseline)"
+    },
+    "Private For-Profit": {
+      "risk_multiplier": 1.80,
+      "description": "For-profit institutions (high default risk)"
+    }
+  },
+  "combination_rules": {
+    "method": "multiplicative",
+    "formula": "Final_Risk = Base_Risk × Carnegie × Selectivity × Type",
+    "caps": {
+      "min_multiplier": 0.40,
+      "max_multiplier": 2.50
+    },
+    "note": "Multipliers are applied sequentially, then capped"
+  },
+  "examples": {
+    "Harvard Engineering": {
+      "base_default_prob": 0.052,
+      "carnegie": "R1",
+      "carnegie_mult": 0.70,
+      "selectivity": "Most Selective",
+      "selectivity_mult": 0.60,
+      "type": "Private Nonprofit",
+      "type_mult": 0.85,
+      "combined_mult": 0.357,
+      "adjusted_default_prob": 0.019,
+      "description": "Elite R1 + Most selective + Private = very low risk"
+    },
+    "Community College Business": {
+      "base_default_prob": 0.103,
+      "carnegie": "Associate's",
+      "carnegie_mult": 1.20,
+      "selectivity": "Open Admission",
+      "selectivity_mult": 1.30,
+      "type": "Public",
+      "type_mult": 1.00,
+      "combined_mult": 1.56,
+      "adjusted_default_prob": 0.161,
+      "description": "Community college + Open admission = elevated risk"
+    },
+    "For-Profit Liberal Arts": {
+      "base_default_prob": 0.082,
+      "carnegie": "Baccalaureate",
+      "carnegie_mult": 1.10,
+      "selectivity": "Minimally Selective",
+      "selectivity_mult": 1.10,
+      "type": "Private For-Profit",
+      "type_mult": 1.80,
+      "combined_mult": 2.178,
+      "adjusted_default_prob": 0.179,
+      "description": "For-profit + Low selectivity = high risk"
+    }
+  }
+}

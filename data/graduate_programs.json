@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "source": "BLS Occupational Employment Statistics + NCES Graduate Student Aid",
+    "year": 2024,
+    "note": "Graduate programs have higher loan amounts and earnings potential"
+  },
+  "graduate_programs": [
+    {
+      "program": "MBA (Master of Business Administration)",
+      "field_category": "Business/Management",
+      "median_earnings": 95000,
+      "median_debt": 66000,
+      "typical_duration": 2,
+      "employment_rate": 0.94,
+      "underemployment_proxy": 0.05,
+      "n_programs": 500
+    },
+    {
+      "program": "JD (Juris Doctor)",
+      "field_category": "Legal Professions",
+      "median_earnings": 85000,
+      "median_debt": 145000,
+      "typical_duration": 3,
+      "employment_rate": 0.87,
+      "underemployment_proxy": 0.12,
+      "n_programs": 200
+    },
+    {
+      "program": "MD (Doctor of Medicine)",
+      "field_category": "Health Professions",
+      "median_earnings": 220000,
+      "median_debt": 200000,
+      "typical_duration": 4,
+      "employment_rate": 0.99,
+      "underemployment_proxy": 0.01,
+      "n_programs": 155
+    },
+    {
+      "program": "DDS/DMD (Dentistry)",
+      "field_category": "Health Professions",
+      "median_earnings": 180000,
+      "median_debt": 285000,
+      "typical_duration": 4,
+      "employment_rate": 0.98,
+      "underemployment_proxy": 0.02,
+      "n_programs": 68
+    },
+    {
+      "program": "PharmD (Pharmacy)",
+      "field_category": "Health Professions",
+      "median_earnings": 128000,
+      "median_debt": 180000,
+      "typical_duration": 4,
+      "employment_rate": 0.93,
+      "underemployment_proxy": 0.08,
+      "n_programs": 140
+    },
+    {
+      "program": "MS Computer Science",
+      "field_category": "Computer Science",
+      "median_earnings": 115000,
+      "median_debt": 45000,
+      "typical_duration": 2,
+      "employment_rate": 0.97,
+      "underemployment_proxy": 0.03,
+      "n_programs": 380
+    },
+    {
+      "program": "MS Engineering",
+      "field_category": "Engineering",
+      "median_earnings": 105000,
+      "median_debt": 42000,
+      "typical_duration": 2,
+      "employment_rate": 0.96,
+      "underemployment_proxy": 0.02,
+      "n_programs": 320
+    },
+    {
+      "program": "MSW (Social Work)",
+      "field_category": "Social Sciences",
+      "median_earnings": 55000,
+      "median_debt": 52000,
+      "typical_duration": 2,
+      "employment_rate": 0.89,
+      "underemployment_proxy": 0.15,
+      "n_programs": 280
+    },
+    {
+      "program": "MEd (Education)",
+      "field_category": "Education",
+      "median_earnings": 58000,
+      "median_debt": 48000,
+      "typical_duration": 2,
+      "employment_rate": 0.91,
+      "underemployment_proxy": 0.08,
+      "n_programs": 450
+    },
+    {
+      "program": "MFA (Fine Arts)",
+      "field_category": "Visual/Performing Arts",
+      "median_earnings": 48000,
+      "median_debt": 58000,
+      "typical_duration": 3,
+      "employment_rate": 0.78,
+      "underemployment_proxy": 0.25,
+      "n_programs": 210
+    },
+    {
+      "program": "PhD STEM",
+      "field_category": "Physical Sciences",
+      "median_earnings": 95000,
+      "median_debt": 35000,
+      "typical_duration": 6,
+      "employment_rate": 0.94,
+      "underemployment_proxy": 0.08,
+      "n_programs": 425
+    },
+    {
+      "program": "PhD Humanities",
+      "field_category": "Liberal Arts",
+      "median_earnings": 65000,
+      "median_debt": 45000,
+      "typical_duration": 6,
+      "employment_rate": 0.82,
+      "underemployment_proxy": 0.22,
+      "n_programs": 320
+    },
+    {
+      "program": "MPA (Public Administration)",
+      "field_category": "Public Administration",
+      "median_earnings": 68000,
+      "median_debt": 50000,
+      "typical_duration": 2,
+      "employment_rate": 0.88,
+      "underemployment_proxy": 0.12,
+      "n_programs": 180
+    },
+    {
+      "program": "MPH (Public Health)",
+      "field_category": "Health Professions",
+      "median_earnings": 72000,
+      "median_debt": 55000,
+      "typical_duration": 2,
+      "employment_rate": 0.90,
+      "underemployment_proxy": 0.10,
+      "n_programs": 190
+    },
+    {
+      "program": "MA Psychology/Counseling",
+      "field_category": "Psychology",
+      "median_earnings": 52000,
+      "median_debt": 48000,
+      "typical_duration": 2,
+      "employment_rate": 0.85,
+      "underemployment_proxy": 0.18,
+      "n_programs": 340
+    }
+  ]
+}

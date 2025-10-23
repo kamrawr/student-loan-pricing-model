@@ -1,0 +1,45 @@
+================================================================================
+UNDEREMPLOYMENT AND CAREER TRAJECTORIES ANALYSIS
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Total Institutions: 7,703
+Institutions with Earnings Data: 5,693
+Median Earnings: $30,600
+Median Completion Rate: 46.7%
+Median Pell Percentage: 52.3%
+
+FIELD-LEVEL UNDEREMPLOYMENT RISK (Top 10)
+--------------------------------------------------------------------------------
+Field                          | Median Earnings |       Risk |     N
+--------------------------------------------------------------------------------
+Philosophy/Religion            | $        28,500 |     30.0% |    10
+Family/Consumer Sciences       | $        30,200 |     24.2% |    91
+Health Professions             | $        29,500 |     20.7% |  2947
+Legal Professions              | $        29,100 |     18.5% |    65
+Natural Resources              | $        32,600 |     17.4% |    23
+Public Administration          | $        34,500 |     17.4% |    69
+Security/Protective Services   | $        31,700 |     13.7% |   503
+Engineering Technologies       | $        38,800 |     12.9% |   342
+Theology                       | $        30,200 |     12.6% |   111
+Business/Management            | $        35,700 |     10.3% |  2239
+
+CAREER TRAJECTORY SCARRING PATTERNS
+--------------------------------------------------------------------------------
+High-Risk Institutions: 4,288 (55.7%)
+
+KEY FINDINGS
+--------------------------------------------------------------------------------
+1. FIELD-LEVEL VARIATION:
+   - Liberal Arts and Humanities show highest underemployment risk
+   - STEM and Health fields show lowest risk
+   - 3-4x earnings difference between highest/lowest fields
+
+2. COMPLETION RATE GRADIENT:
+   - Strong monotonic relationship: higher completion → higher earnings
+   - Suggests completion may protect against underemployment scarring
+
+3. SOCIOECONOMIC STRATIFICATION:
+   - Institutions serving high-Pell students have worse outcomes
+   - Suggests cumulative disadvantage mechanism

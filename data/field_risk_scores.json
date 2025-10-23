@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "generated": "2025-10-22T23:48:05.278126",
+    "source": "College Scorecard Data - Updated Analysis",
+    "analysis_date": "2025-10-22",
+    "total_institutions": 7703,
+    "institutions_with_earnings": 5693
+  },
+  "field_risk": [
+    {
+      "field": "Philosophy/Religion",
+      "median_earnings": 28500.0,
+      "underemployment_proxy": 0.3,
+      "n_institutions": 10
+    },
+    {
+      "field": "Family/Consumer Sciences",
+      "median_earnings": 30200.0,
+      "underemployment_proxy": 0.2417582417582417,
+      "n_institutions": 91
+    },
+    {
+      "field": "Health Professions",
+      "median_earnings": 29500.0,
+      "underemployment_proxy": 0.2066508313539192,
+      "n_institutions": 2947
+    },
+    {
+      "field": "Legal Professions",
+      "median_earnings": 29100.0,
+      "underemployment_proxy": 0.1846153846153846,
+      "n_institutions": 65
+    },
+    {
+      "field": "Natural Resources",
+      "median_earnings": 32600.0,
+      "underemployment_proxy": 0.1739130434782608,
+      "n_institutions": 23
+    },
+    {
+      "field": "Public Administration",
+      "median_earnings": 34500.0,
+      "underemployment_proxy": 0.1739130434782608,
+      "n_institutions": 69
+    },
+    {
+      "field": "Security/Protective Services",
+      "median_earnings": 31700.0,
+      "underemployment_proxy": 0.1371769383697813,
+      "n_institutions": 503
+    },
+    {
+      "field": "Engineering Technologies",
+      "median_earnings": 38800.0,
+      "underemployment_proxy": 0.1286549707602339,
+      "n_institutions": 342
+    },
+    {
+      "field": "Theology",
+      "median_earnings": 30200.0,
+      "underemployment_proxy": 0.1261261261261261,
+      "n_institutions": 111
+    },
+    {
+      "field": "Business/Management",
+      "median_earnings": 35700.0,
+      "underemployment_proxy": 0.1031710585082626,
+      "n_institutions": 2239
+    },
+    {
+      "field": "Computer Science",
+      "median_earnings": 38800.0,
+      "underemployment_proxy": 0.0919811320754716,
+      "n_institutions": 424
+    },
+    {
+      "field": "Communications Technologies",
+      "median_earnings": 29400.0,
+      "underemployment_proxy": 0.0851063829787234,
+      "n_institutions": 47
+    },
+    {
+      "field": "Liberal Arts",
+      "median_earnings": 30150.0,
+      "underemployment_proxy": 0.08203125,
+      "n_institutions": 1024
+    },
+    {
+      "field": "Physical Sciences",
+      "median_earnings": 48150.0,
+      "underemployment_proxy": 0.0714285714285714,
+      "n_institutions": 14
+    },
+    {
+      "field": "Education",
+      "median_earnings": 36600.0,
+      "underemployment_proxy": 0.0694143167028199,
+      "n_institutions": 461
+    },
+    {
+      "field": "Agriculture",
+      "median_earnings": 34500.0,
+      "underemployment_proxy": 0.0681818181818181,
+      "n_institutions": 44
+    },
+    {
+      "field": "Visual/Performing Arts",
+      "median_earnings": 33800.0,
+      "underemployment_proxy": 0.0583090379008746,
+      "n_institutions": 343
+    },
+    {
+      "field": "English",
+      "median_earnings": 42700.0,
+      "underemployment_proxy": 0.0476190476190476,
+      "n_institutions": 42
+    },
+    {
+      "field": "Communication",
+      "median_earnings": 42300.0,
+      "underemployment_proxy": 0.04,
+      "n_institutions": 125
+    },
+    {
+      "field": "Biological Sciences",
+      "median_earnings": 44200.0,
+      "underemployment_proxy": 0.0297397769516728,
+      "n_institutions": 269
+    },
+    {
+      "field": "Engineering",
+      "median_earnings": 52900.0,
+      "underemployment_proxy": 0.0132450331125827,
+      "n_institutions": 151
+    },
+    {
+      "field": "Psychology",
+      "median_earnings": 40300.0,
+      "underemployment_proxy": 0.0120845921450151,
+      "n_institutions": 331
+    },
+    {
+      "field": "Social Sciences",
+      "median_earnings": 45400.0,
+      "underemployment_proxy": 0.010840108401084,
+      "n_institutions": 369
+    },
+    {
+      "field": "Architecture",
+      "median_earnings": 46500.0,
+      "underemployment_proxy": 0.0,
+      "n_institutions": 17
+    }
+  ]
+}
