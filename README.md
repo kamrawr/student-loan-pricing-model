@@ -71,15 +71,20 @@ This project develops a risk-based pricing model for student loans that adjusts 
 ### Field Risk Rankings (from Underemployment Analysis)
 
 **Highest Risk:**
-- Philosophy/Religion (30% underemployment proxy)
-- Family/Consumer Sciences (24%)
-- Health Professions (21%)
+- Philosophy/Religion (30% underemployment, 9.5% default risk)
+- Family/Consumer Sciences (24.2% underemployment, 8.6% default risk)
+- Health Professions (20.7% underemployment, 8.1% default risk)
 
 **Lowest Risk:**
-- Engineering (1.3%)
-- Psychology (1.2%)
-- Social Sciences (1.1%)
-- Architecture (0%)
+- Engineering (1.3% underemployment, 5.2% default risk)
+- Psychology (1.2% underemployment, 5.2% default risk)
+- Social Sciences (1.1% underemployment, 5.2% default risk)
+- Architecture (0% underemployment, 5.0% default risk)
+
+### Pure Risk-Based Rate Range
+- **Engineering (lowest):** 5.68% (5.50% base + 0.18% risk premium)
+- **Philosophy (highest):** 5.83% (5.50% base + 0.33% risk premium)
+- **Spread:** 0.15 percentage points before income subsidies
 
 ### Earnings Differential
 - Engineering: $52,900 median (6yr post-entry)
